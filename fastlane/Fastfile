@@ -59,11 +59,7 @@ platform :ios do
      # use_modular_headers: true,
     #  skip_import_validation: true) # 提交到 CocoaPods私有库
     pod_push(path: lib_path, 
-      allow_warnings: true, 
-      use_libraries: true, 
-      sources: SOURCES, 
-      use_modular_headers: true,
-      skip_import_validation: true) # 提交到 CocoaPods公有库
+      allow_warnings: true) # 提交到 CocoaPods公有库
   end
 
 end
