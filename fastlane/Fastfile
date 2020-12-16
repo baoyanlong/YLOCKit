@@ -19,10 +19,9 @@ platform :ios do
 
   actions_path './actions'
 
-  MASTER_PATH = "https://github.com/CocoaPods/Specs"
+  MASTER_PATH = "https://github.com/CocoaPods/Specs,https://gitee.com/yan_long/ylspecs.git"
   PRIVATE_PATH = "https://github.com/baoyanlong/YLOCKit.git"
-  #PRIVATE_SPEC = "YLSpecs"
-  PRIVATE_SPEC = "Trunk"
+  PRIVATE_SPEC = "YLSpecs"
   SOURCES = [PRIVATE_PATH, MASTER_PATH]
 
   desc "Release new private pod version"
