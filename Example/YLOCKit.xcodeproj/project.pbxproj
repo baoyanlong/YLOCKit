@@ -40,7 +40,7 @@
 		243A02768872816DEEA4BDD9 /* Pods_YLOCKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLOCKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		36212A1E20DE88E0C50B609C /* Pods-YLOCKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLOCKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-YLOCKit_Example/Pods-YLOCKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4262EB42C5EEDDF3DF908670 /* Pods-YLOCKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLOCKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YLOCKit_Tests/Pods-YLOCKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5FE28B4386C11D63B6D86134 /* YLOCKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YLOCKit.podspec; path = ../YLOCKit.podspec; sourceTree = "<group>"; };
+		5FE28B4386C11D63B6D86134 /* YLOCKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YLOCKit.podspec; path = ../YLOCKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* YLOCKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLOCKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,10 +63,10 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93F1A7D5BC8D4D4BE4681325 /* Pods-YLOCKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLOCKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-YLOCKit_Tests/Pods-YLOCKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A811956D92D3A152325BB0BB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A811956D92D3A152325BB0BB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C79A1B516EE61DC63B5B83C5 /* Pods_YLOCKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLOCKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED9AE1C497B4294176507E0B /* Pods-YLOCKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLOCKit_Example.release.xcconfig"; path = "Target Support Files/Pods-YLOCKit_Example/Pods-YLOCKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EFD160FB9E77E8B2E2106135 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EFD160FB9E77E8B2E2106135 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				4262EB42C5EEDDF3DF908670 /* Pods-YLOCKit_Tests.debug.xcconfig */,
 				93F1A7D5BC8D4D4BE4681325 /* Pods-YLOCKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
