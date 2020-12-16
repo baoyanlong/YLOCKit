@@ -7,6 +7,7 @@
 //
 
 #import "YLViewController.h"
+#import <YLOCKit.h>
 
 @interface YLViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [YLPublicMethod compareVersionWithOnlineVersion:@"1.0.2"];
 }
 
 - (void)didReceiveMemoryWarning
