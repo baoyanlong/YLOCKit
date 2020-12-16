@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'YLOCKit_Example' do
+  pod 'YLOCKit', :path => '../'
+
+  target 'YLOCKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
