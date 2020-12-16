@@ -51,13 +51,19 @@ platform :ios do
     add_git_tag(tag: target_version) # 设置 tag
     push_to_git_remote # 推送到 git 仓库
 
+    #pod_push(path: lib_path, 
+      #repo: PRIVATE_SPEC, 
+     # allow_warnings: true, 
+    #  use_libraries: true, 
+     # sources: SOURCES, 
+     # use_modular_headers: true,
+    #  skip_import_validation: true) # 提交到 CocoaPods私有库
     pod_push(path: lib_path, 
-      repo: PRIVATE_SPEC, 
       allow_warnings: true, 
       use_libraries: true, 
       sources: SOURCES, 
       use_modular_headers: true,
-      skip_import_validation: true) # 提交到 CocoaPods
+      skip_import_validation: true) # 提交到 CocoaPods公有库
   end
 
 end
