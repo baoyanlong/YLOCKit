@@ -27,5 +27,10 @@
 #import "UIImage+YLExtension.h"
 #import "UIColor+YLExtension.h"
 
-
+// 宏定义
+#import "YLAppMacros.h"
+#import "YLInterfaceManage.h"
+#import "YLIphoneMacros.h"
+#import "YLSystemMacros.h"
+#import "YLColorMacros.h"
 #endif /* YLOCKit_h */
