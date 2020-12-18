@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50626853258C810C0000354A /* XHLaunchAdManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 50626851258C810C0000354A /* XHLaunchAdManager.m */; };
+		50626871258C81400000354A /* LaunchVideoAd.json in Resources */ = {isa = PBXBuildFile; fileRef = 50626857258C81400000354A /* LaunchVideoAd.json */; };
+		50626872258C81400000354A /* video0.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 50626858258C81400000354A /* video0.mp4 */; };
+		50626873258C81400000354A /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 50626859258C81400000354A /* video1.mp4 */; };
+		50626874258C81400000354A /* LaunchImageAd.json in Resources */ = {isa = PBXBuildFile; fileRef = 5062685A258C81400000354A /* LaunchImageAd.json */; };
+		50626875258C81400000354A /* image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5062685B258C81400000354A /* image4.jpg */; };
+		50626876258C81400000354A /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5062685C258C81400000354A /* image1.jpg */; };
+		50626877258C81400000354A /* image12.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5062685D258C81400000354A /* image12.gif */; };
+		50626878258C81400000354A /* image0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5062685E258C81400000354A /* image0.jpg */; };
+		50626879258C81400000354A /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5062685F258C81400000354A /* image2.jpg */; };
+		5062687A258C81400000354A /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50626860258C81400000354A /* image3.jpg */; };
+		5062687B258C81400000354A /* Network.m in Sources */ = {isa = PBXBuildFile; fileRef = 50626864258C81400000354A /* Network.m */; };
+		5062687C258C81400000354A /* UIViewController+Nav.m in Sources */ = {isa = PBXBuildFile; fileRef = 50626868258C81400000354A /* UIViewController+Nav.m */; };
+		5062687D258C81400000354A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50626869258C81400000354A /* ViewController.xib */; };
+		5062687E258C81400000354A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5062686A258C81400000354A /* ViewController.m */; };
+		5062687F258C81400000354A /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5062686B258C81400000354A /* WebViewController.m */; };
+		50626880258C81400000354A /* LaunchAdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5062686E258C81400000354A /* LaunchAdModel.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -40,6 +57,29 @@
 		243A02768872816DEEA4BDD9 /* Pods_YLOCKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLOCKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		36212A1E20DE88E0C50B609C /* Pods-YLOCKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLOCKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-YLOCKit_Example/Pods-YLOCKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4262EB42C5EEDDF3DF908670 /* Pods-YLOCKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLOCKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YLOCKit_Tests/Pods-YLOCKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		50626851258C810C0000354A /* XHLaunchAdManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAdManager.m; sourceTree = "<group>"; };
+		50626852258C810C0000354A /* XHLaunchAdManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAdManager.h; sourceTree = "<group>"; };
+		50626857258C81400000354A /* LaunchVideoAd.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LaunchVideoAd.json; sourceTree = "<group>"; };
+		50626858258C81400000354A /* video0.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video0.mp4; sourceTree = "<group>"; };
+		50626859258C81400000354A /* video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video1.mp4; sourceTree = "<group>"; };
+		5062685A258C81400000354A /* LaunchImageAd.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LaunchImageAd.json; sourceTree = "<group>"; };
+		5062685B258C81400000354A /* image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image4.jpg; sourceTree = "<group>"; };
+		5062685C258C81400000354A /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		5062685D258C81400000354A /* image12.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = image12.gif; sourceTree = "<group>"; };
+		5062685E258C81400000354A /* image0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image0.jpg; sourceTree = "<group>"; };
+		5062685F258C81400000354A /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		50626860258C81400000354A /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+		50626864258C81400000354A /* Network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Network.m; sourceTree = "<group>"; };
+		50626865258C81400000354A /* Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Network.h; sourceTree = "<group>"; };
+		50626867258C81400000354A /* UIViewController+Nav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Nav.h"; sourceTree = "<group>"; };
+		50626868258C81400000354A /* UIViewController+Nav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Nav.m"; sourceTree = "<group>"; };
+		50626869258C81400000354A /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		5062686A258C81400000354A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5062686B258C81400000354A /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		5062686D258C81400000354A /* LaunchAdModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchAdModel.h; sourceTree = "<group>"; };
+		5062686E258C81400000354A /* LaunchAdModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchAdModel.m; sourceTree = "<group>"; };
+		5062686F258C81400000354A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		50626870258C81400000354A /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		5FE28B4386C11D63B6D86134 /* YLOCKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YLOCKit.podspec; path = ../YLOCKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* YLOCKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLOCKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -95,6 +135,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50626856258C81400000354A /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				50626857258C81400000354A /* LaunchVideoAd.json */,
+				50626858258C81400000354A /* video0.mp4 */,
+				50626859258C81400000354A /* video1.mp4 */,
+				5062685A258C81400000354A /* LaunchImageAd.json */,
+				5062685B258C81400000354A /* image4.jpg */,
+				5062685C258C81400000354A /* image1.jpg */,
+				5062685D258C81400000354A /* image12.gif */,
+				5062685E258C81400000354A /* image0.jpg */,
+				5062685F258C81400000354A /* image2.jpg */,
+				50626860258C81400000354A /* image3.jpg */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		50626861258C81400000354A /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				50626862258C81400000354A /* Tools */,
+				50626869258C81400000354A /* ViewController.xib */,
+				5062686A258C81400000354A /* ViewController.m */,
+				5062686B258C81400000354A /* WebViewController.m */,
+				5062686C258C81400000354A /* Model */,
+				5062686F258C81400000354A /* ViewController.h */,
+				50626870258C81400000354A /* WebViewController.h */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		50626862258C81400000354A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				50626863258C81400000354A /* Network */,
+				50626866258C81400000354A /* UIViewController+ */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		50626863258C81400000354A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				50626864258C81400000354A /* Network.m */,
+				50626865258C81400000354A /* Network.h */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		50626866258C81400000354A /* UIViewController+ */ = {
+			isa = PBXGroup;
+			children = (
+				50626867258C81400000354A /* UIViewController+Nav.h */,
+				50626868258C81400000354A /* UIViewController+Nav.m */,
+			);
+			path = "UIViewController+";
+			sourceTree = "<group>";
+		};
+		5062686C258C81400000354A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5062686D258C81400000354A /* LaunchAdModel.h */,
+				5062686E258C81400000354A /* LaunchAdModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -132,11 +239,15 @@
 		6003F593195388D20070C39A /* Example for YLOCKit */ = {
 			isa = PBXGroup;
 			children = (
+				50626861258C81400000354A /* Class */,
+				50626856258C81400000354A /* Source */,
 				6003F59C195388D20070C39A /* YLAppDelegate.h */,
 				6003F59D195388D20070C39A /* YLAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* YLViewController.h */,
 				6003F5A6195388D20070C39A /* YLViewController.m */,
+				50626852258C810C0000354A /* XHLaunchAdManager.h */,
+				50626851258C810C0000354A /* XHLaunchAdManager.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -277,9 +388,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50626878258C81400000354A /* image0.jpg in Resources */,
+				50626871258C81400000354A /* LaunchVideoAd.json in Resources */,
+				50626876258C81400000354A /* image1.jpg in Resources */,
+				50626873258C81400000354A /* video1.mp4 in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				5062687A258C81400000354A /* image3.jpg in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				50626879258C81400000354A /* image2.jpg in Resources */,
+				50626877258C81400000354A /* image12.gif in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				5062687D258C81400000354A /* ViewController.xib in Resources */,
+				50626875258C81400000354A /* image4.jpg in Resources */,
+				50626874258C81400000354A /* LaunchImageAd.json in Resources */,
+				50626872258C81400000354A /* video0.mp4 in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,8 +486,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5062687E258C81400000354A /* ViewController.m in Sources */,
+				5062687C258C81400000354A /* UIViewController+Nav.m in Sources */,
 				6003F59E195388D20070C39A /* YLAppDelegate.m in Sources */,
+				5062687F258C81400000354A /* WebViewController.m in Sources */,
+				5062687B258C81400000354A /* Network.m in Sources */,
+				50626853258C810C0000354A /* XHLaunchAdManager.m in Sources */,
 				6003F5A7195388D20070C39A /* YLViewController.m in Sources */,
+				50626880258C81400000354A /* LaunchAdModel.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
