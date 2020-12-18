@@ -11,6 +11,12 @@
 // 公共方法
 #import "YLPublicMethod.h"
 
+// 宏定义
+#import "YLAppMacros.h"
+#import "YLInterfaceManage.h"
+#import "YLIphoneMacros.h"
+#import "YLSystemMacros.h"
+#import "YLColorMacros.h"
 // 分类
 #import "NSArray+YLExtension.h"
 #import "NSMutableArray+YLExtension.h"
@@ -18,6 +24,8 @@
 #import "NSMutableDictionary+YLExtension.h"
 #import "NSString+YLExtension.h"
 #import "NSMutableString+YLExtension.h"
+#import "UIViewController+YLExtension.h"
+#import "NSData+YLExtension.h"
 // UI控件
 #import "UIButton+YLExtension.h"
 #import "UILabel+YLExtension.h"
@@ -27,10 +35,5 @@
 #import "UIImage+YLExtension.h"
 #import "UIColor+YLExtension.h"
 
-// 宏定义
-#import "YLAppMacros.h"
-#import "YLInterfaceManage.h"
-#import "YLIphoneMacros.h"
-#import "YLSystemMacros.h"
-#import "YLColorMacros.h"
+
 #endif /* YLOCKit_h */

@@ -19,7 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    [YLPublicMethod compareVersionWithOnlineVersion:@"1.0.2"];
+    BOOL aa = [YLPublicMethod compareVersionWithOnlineVersion:@"1.0.2"];
+    self.view.backgroundColor = [UIColor redColor];
 }
 
 - (void)didReceiveMemoryWarning
@@ -29,4 +30,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    yl_Log(@"hhhhhhhhhh")
+    yl_LogFunc
+}
 @end

@@ -20,5 +20,6 @@
 //十六进制颜色，透明度
 #define yl_RGBHexAlpha(rgbValue,a) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:(a)]
 
-
+#define yl_ColorHex(a)  [UIColor yl_colorWithHexString:a]
+#define yl_ColorHexWithAlpha(a,b)  [UIColor yl_colorWithHexString:a alpha:b]
 #endif /* YLColorMacros_h */
