@@ -21,17 +21,29 @@
 #define yl_ScaleRatio yl_ScreenW / 375.0
 
 //判断是否为X系列
-#define yl_isIphoneX \
-({BOOL isPhoneX = NO;\
-if (@available(iOS 11.0, *)) {\
-isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bottom > 0.0;\
-}\
-//#define yl_StatusBarHeight        ([UIApplication sharedApplication].statusBarFrame.size.height)
+//#define yl_isIphoneX ([[UIApplication sharedApplication] delegate].window.safeAreaInsets.bottom > 0.0)
+//#define ios11 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 11)?YES:NO
+//#define  yl_isIphoneX ios11&&([[UIApplication sharedApplication] delegate].window.safeAreaInsets.bottom > 0.0)
+//#if (PhoneVersionValue == YES)
+// #define yl_isIphoneX ([[UIApplication sharedApplication] delegate].window.safeAreaInsets.bottom > 0.0)
+//#elif
+// #define yl_isIphoneX NO
+//#endif
+//#define yl_isIphoneX \
+//({BOOL isPhoneX = NO;if(@available(iOS 11.0, *)) {isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bottom > 0.0;}}\
+//)
+
+#define yl_StatusBarHeight  ([UIApplication sharedApplication].statusBarFrame.size.height)
 //#define yl_isIphoneX ((yl_StatusBarHeight == 44) ? YES : NO)
 //#define yl_isIphoneX (yl_ScreenH == 812.0)
 
+#define  yl_isIphoneX (CGSizeEqualToSize(CGSizeMake(375.f, 812.f), [UIScreen mainScreen].bounds.size) || CGSizeEqualToSize(CGSizeMake(812.f, 375.f), [UIScreen mainScreen].bounds.size)  || CGSizeEqualToSize(CGSizeMake(414.f, 896.f), [UIScreen mainScreen].bounds.size) || CGSizeEqualToSize(CGSizeMake(896.f, 414.f), [UIScreen mainScreen].bounds.size) || CGSizeEqualToSize(CGSizeMake(390.f, 844.f), [UIScreen mainScreen].bounds.size) || CGSizeEqualToSize(CGSizeMake(844.f, 390.f), [UIScreen mainScreen].bounds.size) || CGSizeEqualToSize(CGSizeMake(428.f, 926.f), [UIScreen mainScreen].bounds.size) || CGSizeEqualToSize(CGSizeMake(926.f, 428.f), [UIScreen mainScreen].bounds.size))
+
+
+
+
 // 状态栏高度
-#define yl_StatusBarHeight        (yl_isIphoneX ? 44.f : 20.f)
+//#define yl_StatusBarHeight        (yl_isIphoneX ? 44.f : 20.f)
 // 导航栏高度
 #define yl_NavigationBarHeight    44.f
 // 状态栏+导航栏高度
