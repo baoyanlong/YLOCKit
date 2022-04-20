@@ -7,7 +7,9 @@
 //
 
 #import "YLViewController.h"
-#import <YLOCKit.h>
+//*********** 安全工具测试  ***********/
+#import "YLSafeCheckUtil.h"
+#import "YLIPAddressUtils.h"
 
 @interface YLViewController ()
 
@@ -19,20 +21,41 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    BOOL aa = [YLPublicMethod compareVersionWithOnlineVersion:@"1.0.2"];
     self.view.backgroundColor = [UIColor redColor];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    [@"" isEqualToString:@""];
     // Dispose of any resources that can be recreated.
 }
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    yl_Log(@"hhhhhhhhhh")
-    yl_LogFunc
+    // 安全工具测试
+    [self testSafeMethods];
 }
+
+//*********** 安全工具测试  ***********/
+- (void)testSafeMethods {
+    // 检测gdb/lldb调试
+    [YLSafeCheckUtil disableGdb];
+    
+    //
+    [YLSafeCheckUtil disableDebugged];
+    
+    BOOL _hasProxy = [YLSafeCheckUtil hasProxy];
+    
+    //
+    BOOL _isJailbroken = [YLSafeCheckUtil isJailbroken];
+    
+    BOOL _validSignature = [YLSafeCheckUtil validSignature];
+    
+    NSLog(@"_hasProxy = %d,_isJailbroken = %d,_validSignature = %d",_hasProxy, _isJailbroken, _validSignature);
+    
+    NSString *ip = [YLIPAddressUtils getDeviceIPAddress];
+    NSLog(@"ip = %@", ip);
+}
+
+
 @end
